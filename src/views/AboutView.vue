@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <HeaderComponent />
+    <FilmComponent />
   </div>
 </template>
+
+<script>
+import FilmComponent from "@/components/FilmComponent";
+import HeaderComponent from "@/components/HeaderComponent";
+
+export default {
+  components: {
+    FilmComponent,
+    HeaderComponent
+  }
+}
+</script>
