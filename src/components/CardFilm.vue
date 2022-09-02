@@ -60,7 +60,6 @@ export default {
       this.updateActiveLink(false)
       this.updateFilm(film)
     }
-
   }
 }
 
